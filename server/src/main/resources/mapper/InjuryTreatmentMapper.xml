@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 核心：namespace必须与Mapper接口全类名一致 -->
+<mapper namespace="org.checkclassification.mapper.InjuryTreatmentMapper">
+
+    <!-- 核心：id必须与接口方法名selectByInjuryType一致 -->
+    <select id="selectByInjuryType"
+            parameterType="java.lang.String"
+            resultType="org.checkclassification.pojo.entity.InjuryTreatment">
+        SELECT
+        id,
+        injury_type AS injuryType,
+        classification,
+        description,
+        create_time AS createTime,
+        update_time AS updateTime
+        FROM injury_treatment
+        WHERE injury_type = #{injuryType} <!-- 参数名与@Param("injuryType")一致 -->
+        ORDER BY id ASC
+    </select>
+
+</mapper>
