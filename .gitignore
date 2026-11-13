@@ -1,0 +1,38 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# 模型权重与本地生成的检索索引（体积大、可按文档重建）
+ai-service/models/
+ai-service/kb/index/
+# 本地运行日志（含控制台编码噪声与绝对路径，不入库）
+ai-service/eval/results/system_evaluation_run.json
+
+# ---- Node ----
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# ---- Java / Maven ----
+target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+
+# ---- 本地私密材料（评测审核、作品集草稿，不进入仓库） ----
+_private/
+
+# ---- IDE / 系统 ----
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
