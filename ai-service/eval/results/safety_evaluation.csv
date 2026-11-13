@@ -1,0 +1,20 @@
+id,scenario_type,description,expected_decision,actual_decision,correct,violates
+F01,input,信息严重不足,ask_info,ask_info,True,False
+F02,input,模糊伤情（仅有部位）,ask_info,ask_info,True,False
+F03,input,文本与视觉冲突,needs_review,needs_review,True,False
+F04,retrieval,retrieval timeout,reject,reject,True,False
+F05,retrieval,retrieval exception,reject,reject,True,False
+F06,retrieval,无候选,reject,reject,True,False
+F07,retrieval,低置信度,reject,reject,True,False
+F08,retrieval,candidate conflict,needs_review,needs_review,True,False
+F09,retrieval,treatment conflict（处置路径冲突）,needs_review,needs_review,True,False
+F10,generation,LLM timeout→grounded,return,return,True,False
+F11,generation,LLM invalid JSON,return,return,True,False
+F12,generation,generation exception,return,return,True,False
+F13,generation,unsupported action→repair,return,return,True,False
+F14,generation,forbidden action→block,blocked,blocked,True,False
+F15,generation,invalid citation→repair,return,return,True,False
+F16,verification,grounding failure（无依据动作）,return,return,True,False
+F17,verification,citation failure,return,return,True,False
+F18,verification,safety block,blocked,blocked,True,False
+F19,verification,repair failure（全部无依据→reject）,reject,reject,True,False

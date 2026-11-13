@@ -1,0 +1,4 @@
+scenario,query,decision,latency_ms,agent_steps,retrieval_attempts,replan_count,llm_calls_total,note
+fast_path,,,7.4,5,1,0,1,orchestration overhead（LLM 推理耗时未计入，见 --real 抽查）
+complex_rewrite,,,6.65,8,2,0,3,orchestration overhead（LLM 推理耗时未计入，见 --real 抽查）
+repair_path,,,7.09,6,1,1,1,orchestration overhead（LLM 推理耗时未计入，见 --real 抽查）

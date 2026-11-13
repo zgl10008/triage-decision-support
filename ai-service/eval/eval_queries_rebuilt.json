@@ -1,0 +1,902 @@
+[
+  {
+    "id": "exact_000",
+    "category": "exact",
+    "query": "头皮裂伤",
+    "expected": "头皮裂伤"
+  },
+  {
+    "id": "exact_003",
+    "category": "exact",
+    "query": "急性硬膜下血肿",
+    "expected": "急性硬膜下血肿"
+  },
+  {
+    "id": "exact_006",
+    "category": "exact",
+    "query": "脑挫裂伤",
+    "expected": "脑挫裂伤"
+  },
+  {
+    "id": "exact_009",
+    "category": "exact",
+    "query": "火器性开放性颅脑伤",
+    "expected": "火器性开放性颅脑伤"
+  },
+  {
+    "id": "exact_012",
+    "category": "exact",
+    "query": "颈椎枪伤伴瘫痪",
+    "expected": "颈椎枪伤伴瘫痪"
+  },
+  {
+    "id": "exact_015",
+    "category": "exact",
+    "query": "胸部压伤(连枷胸)",
+    "expected": "胸部压伤(连枷胸)"
+  },
+  {
+    "id": "exact_018",
+    "category": "exact",
+    "query": "胸部弹片伤(2)",
+    "expected": "胸部弹片伤(2)"
+  },
+  {
+    "id": "exact_021",
+    "category": "exact",
+    "query": "左胸刃器伤(心脏穿透伤)",
+    "expected": "左胸刃器伤(心脏穿透伤)"
+  },
+  {
+    "id": "exact_024",
+    "category": "exact",
+    "query": "肝钝性伤(伴休克)",
+    "expected": "肝钝性伤(伴休克)"
+  },
+  {
+    "id": "exact_027",
+    "category": "exact",
+    "query": "胃穿透伤",
+    "expected": "胃穿透伤"
+  },
+  {
+    "id": "exact_030",
+    "category": "exact",
+    "query": "结肠穿透伤",
+    "expected": "结肠穿透伤"
+  },
+  {
+    "id": "exact_033",
+    "category": "exact",
+    "query": "膀胱穿透伤",
+    "expected": "膀胱穿透伤"
+  },
+  {
+    "id": "exact_036",
+    "category": "exact",
+    "query": "上臂枪弹伤",
+    "expected": "上臂枪弹伤"
+  },
+  {
+    "id": "exact_039",
+    "category": "exact",
+    "query": "骨盆开放伤",
+    "expected": "骨盆开放伤"
+  },
+  {
+    "id": "exact_042",
+    "category": "exact",
+    "query": "臀部软组织开放伤",
+    "expected": "臀部软组织开放伤"
+  },
+  {
+    "id": "exact_045",
+    "category": "exact",
+    "query": "锐器伤致拇指离断",
+    "expected": "锐器伤致拇指离断"
+  },
+  {
+    "id": "exact_048",
+    "category": "exact",
+    "query": "前臂撞击伤(尺桡骨骨折)并发骨筋膜室综合征",
+    "expected": "前臂撞击伤(尺桡骨骨折)并发骨筋膜室综合征"
+  },
+  {
+    "id": "exact_051",
+    "category": "exact",
+    "query": "颈外动脉损伤",
+    "expected": "颈外动脉损伤"
+  },
+  {
+    "id": "exact_054",
+    "category": "exact",
+    "query": "腘动脉损伤",
+    "expected": "腘动脉损伤"
+  },
+  {
+    "id": "exact_057",
+    "category": "exact",
+    "query": "大腿弹片伤",
+    "expected": "大腿弹片伤"
+  },
+  {
+    "id": "exact_060",
+    "category": "exact",
+    "query": "颅脑伤合并胸部伤",
+    "expected": "颅脑伤合并胸部伤"
+  },
+  {
+    "id": "exact_063",
+    "category": "exact",
+    "query": "颅脑伤合并骨盆损伤",
+    "expected": "颅脑伤合并骨盆损伤"
+  },
+  {
+    "id": "exact_066",
+    "category": "exact",
+    "query": "胸椎骨折伴全瘫和闭合性血气胸",
+    "expected": "胸椎骨折伴全瘫和闭合性血气胸"
+  },
+  {
+    "id": "exact_069",
+    "category": "exact",
+    "query": "腹壁软组织缺损合并海水浸泡",
+    "expected": "腹壁软组织缺损合并海水浸泡"
+  },
+  {
+    "id": "exact_072",
+    "category": "exact",
+    "query": "脊柱脊髓损伤合并海水浸泡",
+    "expected": "脊柱脊髓损伤合并海水浸泡"
+  },
+  {
+    "id": "exact_075",
+    "category": "exact",
+    "query": "舱室爆炸眼烧伤",
+    "expected": "舱室爆炸眼烧伤"
+  },
+  {
+    "id": "exact_078",
+    "category": "exact",
+    "query": "水下腹部冲击伤",
+    "expected": "水下腹部冲击伤"
+  },
+  {
+    "id": "exact_081",
+    "category": "exact",
+    "query": "舰船舱室爆炸伤",
+    "expected": "舰船舱室爆炸伤"
+  },
+  {
+    "id": "exact_084",
+    "category": "exact",
+    "query": "大面积烧伤",
+    "expected": "大面积烧伤"
+  },
+  {
+    "id": "exact_087",
+    "category": "exact",
+    "query": "海蛇咬伤",
+    "expected": "海蛇咬伤"
+  },
+  {
+    "id": "para_01",
+    "category": "paraphrase",
+    "query": "脑袋磕破了流了很多血",
+    "expected": "头皮裂伤"
+  },
+  {
+    "id": "para_02",
+    "category": "paraphrase",
+    "query": "头骨被砸得凹进去了",
+    "expected": "凹陷性颅骨骨折"
+  },
+  {
+    "id": "para_03",
+    "category": "paraphrase",
+    "query": "手臂被撞骨折后肿胀发硬",
+    "expected": "前臂撞击伤(尺桡骨骨折)并发骨筋膜室综合征"
+  },
+  {
+    "id": "para_04",
+    "category": "paraphrase",
+    "query": "胳膊被炸伤",
+    "expected": "上臂爆炸伤"
+  },
+  {
+    "id": "para_05",
+    "category": "paraphrase",
+    "query": "小腿踩到地雷炸伤",
+    "expected": "小腿地雷炸伤"
+  },
+  {
+    "id": "para_06",
+    "category": "paraphrase",
+    "query": "大拇指被刀割断了",
+    "expected": "锐器伤致拇指离断"
+  },
+  {
+    "id": "para_07",
+    "category": "paraphrase",
+    "query": "腋窝的动脉破了",
+    "expected": "腋动脉损伤"
+  },
+  {
+    "id": "para_08",
+    "category": "paraphrase",
+    "query": "膝盖里进了弹片",
+    "expected": "膝关节弹片伤"
+  },
+  {
+    "id": "para_09",
+    "category": "paraphrase",
+    "query": "大腿皮肉被整个撕脱",
+    "expected": "下肢皮肤撕脱伤"
+  },
+  {
+    "id": "para_10",
+    "category": "paraphrase",
+    "query": "被海里的蛇咬伤",
+    "expected": "海蛇咬伤"
+  },
+  {
+    "id": "para_11",
+    "category": "paraphrase",
+    "query": "掉进海里呛水昏迷",
+    "expected": "海水淹溺"
+  },
+  {
+    "id": "para_12",
+    "category": "paraphrase",
+    "query": "被水母蜇了",
+    "expected": "海洋腔肠动物伤"
+  },
+  {
+    "id": "para_13",
+    "category": "paraphrase",
+    "query": "眼睛被激光照伤",
+    "expected": "中度眼激光武器伤"
+  },
+  {
+    "id": "symp_01",
+    "category": "symptom",
+    "query": "头皮伤口裂开六厘米，出血比较多",
+    "expected": "头皮裂伤"
+  },
+  {
+    "id": "symp_02",
+    "category": "symptom",
+    "query": "胸壁被撞后一吸气就塌陷一块",
+    "expected": "胸部压伤(连枷胸)"
+  },
+  {
+    "id": "symp_03",
+    "category": "symptom",
+    "query": "腹部被刺伤后脸色苍白出冷汗",
+    "expected": "肝穿透伤(伴失血性休克)"
+  },
+  {
+    "id": "symp_04",
+    "category": "symptom",
+    "query": "肚子被弹片打穿后休克",
+    "expected": "小肠穿透伤(伴休克)"
+  },
+  {
+    "id": "symp_05",
+    "category": "symptom",
+    "query": "高压环境下上浮太快关节痛",
+    "expected": "减压病"
+  },
+  {
+    "id": "symp_06",
+    "category": "symptom",
+    "query": "皮肤大面积红肿起泡",
+    "expected": "大面积烧伤"
+  },
+  {
+    "id": "symp_07",
+    "category": "symptom",
+    "query": "眼睛刺痛流泪睁不开",
+    "expected": "刺激剂中毒"
+  },
+  {
+    "id": "symp_08",
+    "category": "symptom",
+    "query": "浑身抽搐肌肉震颤",
+    "expected": "中度神经性毒剂中毒"
+  },
+  {
+    "id": "symp_09",
+    "category": "symptom",
+    "query": "呼气有苦杏仁味，头晕",
+    "expected": "重度氢氰酸中毒"
+  },
+  {
+    "id": "symp_10",
+    "category": "symptom",
+    "query": "腿被重物压了几个小时，尿量减少",
+    "expected": "挤压伤综合征(下肢挤压伤)"
+  },
+  {
+    "id": "symp_11",
+    "category": "symptom",
+    "query": "脑袋被砸了一下，先晕过去又醒了，过了半小时又昏迷了",
+    "expected": "急性硬膜外血肿"
+  },
+  {
+    "id": "symp_12",
+    "category": "symptom",
+    "query": "从高处摔下来头先着地，一直昏迷还越来越重，反复吐",
+    "expected": "急性硬膜下血肿"
+  },
+  {
+    "id": "symp_13",
+    "category": "symptom",
+    "query": "头上挨了一棒子，当场就晕了，醒过来又恶心又吐",
+    "expected": "脑挫裂伤"
+  },
+  {
+    "id": "symp_14",
+    "category": "symptom",
+    "query": "出车祸摔到头，一直没醒，手脚软绵绵的，呼吸一阵一阵乱",
+    "expected": "弥漫性脑轴索损伤"
+  },
+  {
+    "id": "symp_15",
+    "category": "symptom",
+    "query": "摔了一跤磕到头，晕了两分钟，醒过来记不清当时咋摔的",
+    "expected": "轻型脑损伤"
+  },
+  {
+    "id": "symp_16",
+    "category": "symptom",
+    "query": "头部被弹片炸开，伤口里嵌着泥沙和头发，人已经休克了",
+    "expected": "火器性开放性颅脑伤"
+  },
+  {
+    "id": "symp_17",
+    "category": "symptom",
+    "query": "左胸被刀捅了，脖子上的青筋都鼓起来，血压往下掉",
+    "expected": "左胸刃器伤(心脏穿透伤)"
+  },
+  {
+    "id": "symp_18",
+    "category": "symptom",
+    "query": "胸口被弹片打穿，一喘气伤口就往外冒血还带着嘶嘶声",
+    "expected": "胸部弹片伤(1)"
+  },
+  {
+    "id": "symp_19",
+    "category": "symptom",
+    "query": "后背被重物砸了，手脚都动不了，尿也解不出来，喘不上气",
+    "expected": "胸椎骨折伴全瘫和闭合性血气胸"
+  },
+  {
+    "id": "symp_20",
+    "category": "symptom",
+    "query": "右上腹被车撞了，脸色惨白手脚冰凉，肚子胀得厉害",
+    "expected": "肝钝性伤(伴休克)"
+  },
+  {
+    "id": "symp_21",
+    "category": "symptom",
+    "query": "左上腹被弹片打穿，肚子胀，一按里面像有水在晃",
+    "expected": "脾穿透伤(伴休克)"
+  },
+  {
+    "id": "symp_22",
+    "category": "symptom",
+    "query": "腰被重物砸了，尿出来的全是红的",
+    "expected": "肾钝性伤"
+  },
+  {
+    "id": "symp_23",
+    "category": "symptom",
+    "query": "小肚子被刀刺了，尿不出来，尿里还带血",
+    "expected": "膀胱穿透伤"
+  },
+  {
+    "id": "symp_24",
+    "category": "symptom",
+    "query": "上腹被炸开，伤口往外流刚吃下去的东西",
+    "expected": "胃穿透伤"
+  },
+  {
+    "id": "symp_25",
+    "category": "symptom",
+    "query": "肚子被弹片打穿，肠子都露出来了，还往外流粪水",
+    "expected": "结肠穿透伤"
+  },
+  {
+    "id": "symp_26",
+    "category": "symptom",
+    "query": "屁股上中了一枪，拉的大便带血，肛门也往外渗血",
+    "expected": "直肠穿透伤"
+  },
+  {
+    "id": "symp_27",
+    "category": "symptom",
+    "query": "脖子被弹片打中，血一股一股往外喷",
+    "expected": "颈外动脉损伤"
+  },
+  {
+    "id": "symp_28",
+    "category": "symptom",
+    "query": "大腿根被炸伤喷血，脚背上摸不到脉了",
+    "expected": "股动脉损伤"
+  },
+  {
+    "id": "symp_29",
+    "category": "symptom",
+    "query": "膝盖后面喷血，整条小腿发凉，摸不到脉",
+    "expected": "腘动脉损伤"
+  },
+  {
+    "id": "symp_30",
+    "category": "symptom",
+    "query": "胳膊肘被弹片炸了，手有一边发麻，小指和无名指弯不了",
+    "expected": "肘部破片伤伴尺神经损伤"
+  },
+  {
+    "id": "symp_31",
+    "category": "symptom",
+    "query": "膝盖外侧中了枪，脚背发麻，脚趾头抬不起来",
+    "expected": "膝部枪弹伤伴腓总神经损伤"
+  },
+  {
+    "id": "symp_32",
+    "category": "symptom",
+    "query": "上臂中了枪，前后两个洞，胳膊抬不起来",
+    "expected": "上臂枪弹伤"
+  },
+  {
+    "id": "symp_33",
+    "category": "symptom",
+    "query": "手被雷管炸了，几个手指头都炸没了",
+    "expected": "手部炸伤"
+  },
+  {
+    "id": "symp_34",
+    "category": "symptom",
+    "query": "胯骨被枪打穿，血往外涌，还尿血",
+    "expected": "骨盆开放伤"
+  },
+  {
+    "id": "symp_35",
+    "category": "symptom",
+    "query": "船舱里爆炸，吸了一嘴烟，耳朵嗡嗡响还往外流血",
+    "expected": "舰船舱室爆炸伤"
+  },
+  {
+    "id": "symp_36",
+    "category": "symptom",
+    "query": "舱室爆炸被闪光和火燎到，眼睛又疼又看不清",
+    "expected": "舱室爆炸眼烧伤"
+  },
+  {
+    "id": "symp_37",
+    "category": "symptom",
+    "query": "吸了毒气，一开始只是咳嗽胸闷，几个小时后喘不上气，咳出粉色的沫子",
+    "expected": "光气中毒"
+  },
+  {
+    "id": "symp_38",
+    "category": "symptom",
+    "query": "吸了毒气以后胡言乱语，脸通红口干，瞳孔放得老大",
+    "expected": "毕兹(BZ)中毒"
+  },
+  {
+    "id": "symp_39",
+    "category": "symptom",
+    "query": "受了核辐射，一直狂吐，拉的是血水一样的便",
+    "expected": "肠型放射病"
+  },
+  {
+    "id": "symp_40",
+    "category": "symptom",
+    "query": "掉海里泡了好久才捞上来，体温特别低，人已经迷迷糊糊",
+    "expected": "海水浸泡中度低体温"
+  },
+  {
+    "id": "para_14",
+    "category": "paraphrase",
+    "query": "半边脸被弹片打烂了",
+    "expected": "颌面部伤"
+  },
+  {
+    "id": "para_15",
+    "category": "paraphrase",
+    "query": "脖子被弹片划开一道大口子，血止不住",
+    "expected": "颈部损伤"
+  },
+  {
+    "id": "para_16",
+    "category": "paraphrase",
+    "query": "脖子中了一枪，全身都动不了",
+    "expected": "颈椎枪伤伴瘫痪"
+  },
+  {
+    "id": "para_17",
+    "category": "paraphrase",
+    "query": "脖子被弹片打中，手脚都没知觉了",
+    "expected": "颈部弹片伤伴高位脊髓损伤"
+  },
+  {
+    "id": "para_18",
+    "category": "paraphrase",
+    "query": "胸口被子弹打了个对穿",
+    "expected": "胸部枪弹伤"
+  },
+  {
+    "id": "para_19",
+    "category": "paraphrase",
+    "query": "胸口被重物狠狠撞了一下",
+    "expected": "胸部撞击伤"
+  },
+  {
+    "id": "para_20",
+    "category": "paraphrase",
+    "query": "胸口被弹片打进去，喘气都费劲",
+    "expected": "胸部弹片伤(2)"
+  },
+  {
+    "id": "para_21",
+    "category": "paraphrase",
+    "query": "子弹从胸口穿到了肚子里",
+    "expected": "火器性胸腹联合伤"
+  },
+  {
+    "id": "para_22",
+    "category": "paraphrase",
+    "query": "胸和肚子一起被打穿了",
+    "expected": "胸腹联合伤"
+  },
+  {
+    "id": "para_23",
+    "category": "paraphrase",
+    "query": "肚子被弹片打中，疼得受不了",
+    "expected": "胰腺穿透伤"
+  },
+  {
+    "id": "para_24",
+    "category": "paraphrase",
+    "query": "肚子被塌下来的墙砸了",
+    "expected": "小肠钝性伤"
+  },
+  {
+    "id": "para_25",
+    "category": "paraphrase",
+    "query": "肚皮被弹片划开一道口子",
+    "expected": "腹壁损伤"
+  },
+  {
+    "id": "para_26",
+    "category": "paraphrase",
+    "query": "大腿被弹片打中了",
+    "expected": "大腿弹片伤"
+  },
+  {
+    "id": "para_27",
+    "category": "paraphrase",
+    "query": "大腿被弹片打进一个洞",
+    "expected": "大腿盲管伤"
+  },
+  {
+    "id": "para_28",
+    "category": "paraphrase",
+    "query": "腿上被弹片打了个对穿",
+    "expected": "体表贯通伤"
+  },
+  {
+    "id": "para_29",
+    "category": "paraphrase",
+    "query": "手腕的血管被弹片打断了",
+    "expected": "桡动脉损伤"
+  },
+  {
+    "id": "para_30",
+    "category": "paraphrase",
+    "query": "屁股被弹片炸开一道口子",
+    "expected": "臀部软组织开放伤"
+  },
+  {
+    "id": "para_31",
+    "category": "paraphrase",
+    "query": "裆部和屁股被炸裂了",
+    "expected": "会阴部、臀部皮肤软组织裂伤"
+  },
+  {
+    "id": "para_32",
+    "category": "paraphrase",
+    "query": "腰被弹片打中，腿没知觉了",
+    "expected": "腰椎弹片伤"
+  },
+  {
+    "id": "para_33",
+    "category": "paraphrase",
+    "query": "头骨被砸碎了",
+    "expected": "粉碎性颅骨骨折"
+  },
+  {
+    "id": "para_34",
+    "category": "paraphrase",
+    "query": "脑袋被钝器砸开，血和脑浆往外流",
+    "expected": "非火器性开放性颅脑伤"
+  },
+  {
+    "id": "para_35",
+    "category": "paraphrase",
+    "query": "头和胸口都受了伤",
+    "expected": "颅脑伤合并胸部伤"
+  },
+  {
+    "id": "para_36",
+    "category": "paraphrase",
+    "query": "头和骨盆都被打伤了",
+    "expected": "颅脑伤合并骨盆损伤"
+  },
+  {
+    "id": "para_37",
+    "category": "paraphrase",
+    "query": "皮肤沾了毒气，起了一片大水疱",
+    "expected": "重度芥子气中毒"
+  },
+  {
+    "id": "para_38",
+    "category": "paraphrase",
+    "query": "受了核辐射，又吐又拉还发高烧",
+    "expected": "重度骨髓型放射病"
+  },
+  {
+    "id": "para_39",
+    "category": "paraphrase",
+    "query": "核辐射后不停抽搐，人已经不清醒",
+    "expected": "脑型放射病"
+  },
+  {
+    "id": "para_40",
+    "category": "paraphrase",
+    "query": "浑身被汽油弹烧了，人已经休克",
+    "expected": "大面积烧伤(伴休克)"
+  },
+  {
+    "id": "symp_41",
+    "category": "symptom",
+    "query": "胸壁上被子弹擦出一道血口子，血没怎么往胸腔里流",
+    "expected": "胸壁枪弹伤(切线伤)"
+  },
+  {
+    "id": "symp_42",
+    "category": "symptom",
+    "query": "被爆炸的气浪掀翻，胳膊腿好几处都变形了",
+    "expected": "爆炸伤，多发骨折"
+  },
+  {
+    "id": "symp_43",
+    "category": "symptom",
+    "query": "水里爆炸震到肚子，疼得厉害还一直胀气",
+    "expected": "水下腹部冲击伤"
+  },
+  {
+    "id": "symp_44",
+    "category": "symptom",
+    "query": "被火烧了还吸进烟，憋得喘不上气",
+    "expected": "烧伤合并吸入性损伤"
+  },
+  {
+    "id": "symp_45",
+    "category": "symptom",
+    "query": "船被炸了一下，肚子疼，大腿也疼得不能动",
+    "expected": "舰船冲击伤"
+  },
+  {
+    "id": "symp_46",
+    "category": "symptom",
+    "query": "被重物砸到胯骨，疼得走不了路",
+    "expected": "骨盆闭合伤"
+  },
+  {
+    "id": "symp_47",
+    "category": "symptom",
+    "query": "膝盖后窝被弹片打中，血喷得厉害，人发虚",
+    "expected": "膝部弹片伤伴血管损伤"
+  },
+  {
+    "id": "symp_48",
+    "category": "symptom",
+    "query": "被微波照过后，头疼头晕，心慌睡不着",
+    "expected": "中度微波武器损伤"
+  },
+  {
+    "id": "symp_49",
+    "category": "symptom",
+    "query": "胸和肚子都受伤了，又泡了海水，全身冰凉",
+    "expected": "胸腹联合伤合并海水浸泡"
+  },
+  {
+    "id": "symp_50",
+    "category": "symptom",
+    "query": "腰被撞了，腿不能动，又泡了海水",
+    "expected": "脊柱脊髓损伤合并海水浸泡"
+  },
+  {
+    "id": "symp_51",
+    "category": "symptom",
+    "query": "肚子被弹片打开，肠子露出来，又泡了海水",
+    "expected": "腹部开放性损伤合并海水浸泡"
+  },
+  {
+    "id": "symp_52",
+    "category": "symptom",
+    "query": "胸口被打穿，泡了海水，喘不上气",
+    "expected": "胸部开放性损伤合并海水浸泡"
+  },
+  {
+    "id": "symp_53",
+    "category": "symptom",
+    "query": "腿被弹片炸伤，又泡了海水，脚冰凉",
+    "expected": "肢体弹片伤合并海水浸泡"
+  },
+  {
+    "id": "symp_54",
+    "category": "symptom",
+    "query": "肚皮被弹片掀掉一块，泡了海水",
+    "expected": "腹壁软组织缺损合并海水浸泡"
+  },
+  {
+    "id": "symp_55",
+    "category": "symptom",
+    "query": "身上烧伤了，又掉进海里，人发冷犯迷糊",
+    "expected": "烧伤合并海水浸泡"
+  },
+  {
+    "id": "symp_56",
+    "category": "symptom",
+    "query": "被炸又被烧，还泡了海水，胸口发闷",
+    "expected": "烧冲复合伤合并海水浸泡"
+  },
+  {
+    "id": "symp_57",
+    "category": "symptom",
+    "query": "小腿被弹片炸伤又烧伤，泡了海水，体温很低",
+    "expected": "弹烧复合伤合并海水浸泡"
+  },
+  {
+    "id": "symp_58",
+    "category": "symptom",
+    "query": "脸和胸口都被弹片打中，喘气费劲",
+    "expected": "颌面部损伤合并胸部损伤"
+  },
+  {
+    "id": "symp_59",
+    "category": "symptom",
+    "query": "下巴脖子被炸伤，口鼻流血，又泡了海水",
+    "expected": "颌面颈部伤合并海水浸泡"
+  },
+  {
+    "id": "symp_60",
+    "category": "symptom",
+    "query": "胸口被砸了，腿也被压了几个小时，尿很少",
+    "expected": "胸部伤合并及下肢挤压伤"
+  },
+  {
+    "id": "off_01",
+    "category": "offtopic",
+    "query": "今天天气怎么样",
+    "expected": ""
+  },
+  {
+    "id": "off_02",
+    "category": "offtopic",
+    "query": "帮我写一首诗",
+    "expected": ""
+  },
+  {
+    "id": "off_03",
+    "category": "offtopic",
+    "query": "你好",
+    "expected": ""
+  },
+  {
+    "id": "off_04",
+    "category": "offtopic",
+    "query": "你们公司还招人吗",
+    "expected": ""
+  },
+  {
+    "id": "off_05",
+    "category": "offtopic",
+    "query": "1加1等于几",
+    "expected": ""
+  },
+  {
+    "id": "off_06",
+    "category": "offtopic",
+    "query": "推荐一部好看的电影",
+    "expected": ""
+  },
+  {
+    "id": "off_07",
+    "category": "offtopic",
+    "query": "明天会下雨吗",
+    "expected": ""
+  },
+  {
+    "id": "off_08",
+    "category": "offtopic",
+    "query": "你叫什么名字",
+    "expected": ""
+  },
+  {
+    "id": "off_09",
+    "category": "offtopic",
+    "query": "伤情类型",
+    "expected": ""
+  },
+  {
+    "id": "off_10",
+    "category": "offtopic",
+    "query": "胸闷喘不上气",
+    "expected": ""
+  },
+  {
+    "id": "off_11",
+    "category": "offtopic",
+    "query": "今天中午吃什么",
+    "expected": ""
+  },
+  {
+    "id": "off_12",
+    "category": "offtopic",
+    "query": "帮我查一下航班",
+    "expected": ""
+  },
+  {
+    "id": "off_13",
+    "category": "offtopic",
+    "query": "这个月工资多少",
+    "expected": ""
+  },
+  {
+    "id": "off_14",
+    "category": "offtopic",
+    "query": "怎么减肥",
+    "expected": ""
+  },
+  {
+    "id": "off_15",
+    "category": "offtopic",
+    "query": "讲个笑话",
+    "expected": ""
+  },
+  {
+    "id": "off_16",
+    "category": "offtopic",
+    "query": "附近有什么好吃的",
+    "expected": ""
+  },
+  {
+    "id": "off_17",
+    "category": "offtopic",
+    "query": "帮我写作业",
+    "expected": ""
+  },
+  {
+    "id": "off_18",
+    "category": "offtopic",
+    "query": "股票怎么买",
+    "expected": ""
+  },
+  {
+    "id": "off_19",
+    "category": "offtopic",
+    "query": "今天几号",
+    "expected": ""
+  },
+  {
+    "id": "off_20",
+    "category": "offtopic",
+    "query": "帮我定个闹钟",
+    "expected": ""
+  }
+]

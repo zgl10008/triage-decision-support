@@ -1,0 +1,116 @@
+{
+  "dataset": "eval_queries_rebuilt.json",
+  "num_queries": 150,
+  "num_answerable": 130,
+  "offtopic_queries": 20,
+  "groups": {
+    "Dense": {
+      "subsets": {
+        "overall": {
+          "num_queries": 130,
+          "recall@1": 0.7538,
+          "recall@3": 0.9154,
+          "recall@5": 0.9385,
+          "mrr@1": 0.7538,
+          "mrr@3": 0.8282,
+          "mrr@5": 0.834,
+          "ndcg@1": 0.7538,
+          "ndcg@3": 0.8507,
+          "ndcg@5": 0.8607
+        },
+        "exact": {
+          "num_queries": 30,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "mrr@1": 1.0,
+          "mrr@3": 1.0,
+          "mrr@5": 1.0,
+          "ndcg@1": 1.0,
+          "ndcg@3": 1.0,
+          "ndcg@5": 1.0
+        },
+        "paraphrase": {
+          "num_queries": 40,
+          "recall@1": 0.7,
+          "recall@3": 0.875,
+          "recall@5": 0.925,
+          "mrr@1": 0.7,
+          "mrr@3": 0.7708,
+          "mrr@5": 0.7833,
+          "ndcg@1": 0.7,
+          "ndcg@3": 0.7973,
+          "ndcg@5": 0.8189
+        },
+        "symptom": {
+          "num_queries": 60,
+          "recall@1": 0.6667,
+          "recall@3": 0.9,
+          "recall@5": 0.9167,
+          "mrr@1": 0.6667,
+          "mrr@3": 0.7806,
+          "mrr@5": 0.7847,
+          "ndcg@1": 0.6667,
+          "ndcg@3": 0.8117,
+          "ndcg@5": 0.8189
+        }
+      },
+      "offtopic_top1_nonempty": 20,
+      "offtopic_queries": 20
+    },
+    "Dense+TF-IDF": {
+      "subsets": {
+        "overall": {
+          "num_queries": 130,
+          "recall@1": 0.7615,
+          "recall@3": 0.9,
+          "recall@5": 0.9385,
+          "mrr@1": 0.7615,
+          "mrr@3": 0.8244,
+          "mrr@5": 0.8332,
+          "ndcg@1": 0.7615,
+          "ndcg@3": 0.8439,
+          "ndcg@5": 0.8598
+        },
+        "exact": {
+          "num_queries": 30,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "mrr@1": 1.0,
+          "mrr@3": 1.0,
+          "mrr@5": 1.0,
+          "ndcg@1": 1.0,
+          "ndcg@3": 1.0,
+          "ndcg@5": 1.0
+        },
+        "paraphrase": {
+          "num_queries": 40,
+          "recall@1": 0.65,
+          "recall@3": 0.8,
+          "recall@5": 0.875,
+          "mrr@1": 0.65,
+          "mrr@3": 0.7208,
+          "mrr@5": 0.7383,
+          "ndcg@1": 0.65,
+          "ndcg@3": 0.7414,
+          "ndcg@5": 0.7726
+        },
+        "symptom": {
+          "num_queries": 60,
+          "recall@1": 0.7167,
+          "recall@3": 0.9167,
+          "recall@5": 0.95,
+          "mrr@1": 0.7167,
+          "mrr@3": 0.8056,
+          "mrr@5": 0.8131,
+          "ndcg@1": 0.7167,
+          "ndcg@3": 0.8341,
+          "ndcg@5": 0.8477
+        }
+      },
+      "offtopic_top1_nonempty": 20,
+      "offtopic_queries": 20
+    }
+  }
+}

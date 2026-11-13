@@ -1,0 +1,417 @@
+{
+  "overall": {
+    "n": 130,
+    "recall@1": {
+      "dense": 0.7538,
+      "hybrid": 0.7615,
+      "diff": 0.0077,
+      "ci": [
+        -0.0462,
+        0.0615
+      ],
+      "direction": "≈"
+    },
+    "recall@3": {
+      "dense": 0.9154,
+      "hybrid": 0.9,
+      "diff": -0.0154,
+      "ci": [
+        -0.0615,
+        0.0308
+      ],
+      "direction": "≈"
+    },
+    "recall@5": {
+      "dense": 0.9385,
+      "hybrid": 0.9385,
+      "diff": 0.0,
+      "ci": [
+        -0.0462,
+        0.0462
+      ],
+      "direction": "≈"
+    },
+    "mrr@1": {
+      "dense": 0.7538,
+      "hybrid": 0.7615,
+      "diff": 0.0077,
+      "ci": [
+        -0.0462,
+        0.0615
+      ],
+      "direction": "≈"
+    },
+    "mrr@3": {
+      "dense": 0.8282,
+      "hybrid": 0.8244,
+      "diff": -0.0038,
+      "ci": [
+        -0.0449,
+        0.0372
+      ],
+      "direction": "≈"
+    },
+    "ndcg@1": {
+      "dense": 0.7538,
+      "hybrid": 0.7615,
+      "diff": 0.0077,
+      "ci": [
+        -0.0462,
+        0.0615
+      ],
+      "direction": "≈"
+    },
+    "ndcg@3": {
+      "dense": 0.8507,
+      "hybrid": 0.8439,
+      "diff": -0.0069,
+      "ci": [
+        -0.0472,
+        0.0326
+      ],
+      "direction": "≈"
+    },
+    "mcnemar_recall3": {
+      "b": 6,
+      "c": 4,
+      "p": 0.7539
+    },
+    "win_loss_tie": {
+      "win": 15,
+      "loss": 14,
+      "tie": 101
+    }
+  },
+  "exact": {
+    "n": 30,
+    "recall@1": {
+      "dense": 1.0,
+      "hybrid": 1.0,
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "direction": "≈"
+    },
+    "recall@3": {
+      "dense": 1.0,
+      "hybrid": 1.0,
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "direction": "≈"
+    },
+    "recall@5": {
+      "dense": 1.0,
+      "hybrid": 1.0,
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "direction": "≈"
+    },
+    "mrr@1": {
+      "dense": 1.0,
+      "hybrid": 1.0,
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "direction": "≈"
+    },
+    "mrr@3": {
+      "dense": 1.0,
+      "hybrid": 1.0,
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "direction": "≈"
+    },
+    "ndcg@1": {
+      "dense": 1.0,
+      "hybrid": 1.0,
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "direction": "≈"
+    },
+    "ndcg@3": {
+      "dense": 1.0,
+      "hybrid": 1.0,
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "direction": "≈"
+    },
+    "mcnemar_recall3": {
+      "b": 0,
+      "c": 0,
+      "p": 1.0
+    },
+    "win_loss_tie": {
+      "win": 0,
+      "loss": 0,
+      "tie": 30
+    }
+  },
+  "paraphrase": {
+    "n": 40,
+    "recall@1": {
+      "dense": 0.7,
+      "hybrid": 0.65,
+      "diff": -0.05,
+      "ci": [
+        -0.175,
+        0.075
+      ],
+      "direction": "≈"
+    },
+    "recall@3": {
+      "dense": 0.875,
+      "hybrid": 0.8,
+      "diff": -0.075,
+      "ci": [
+        -0.2,
+        0.05
+      ],
+      "direction": "≈"
+    },
+    "recall@5": {
+      "dense": 0.925,
+      "hybrid": 0.875,
+      "diff": -0.05,
+      "ci": [
+        -0.175,
+        0.075
+      ],
+      "direction": "≈"
+    },
+    "mrr@1": {
+      "dense": 0.7,
+      "hybrid": 0.65,
+      "diff": -0.05,
+      "ci": [
+        -0.175,
+        0.075
+      ],
+      "direction": "≈"
+    },
+    "mrr@3": {
+      "dense": 0.7708,
+      "hybrid": 0.7208,
+      "diff": -0.05,
+      "ci": [
+        -0.1583,
+        0.0458
+      ],
+      "direction": "≈"
+    },
+    "ndcg@1": {
+      "dense": 0.7,
+      "hybrid": 0.65,
+      "diff": -0.05,
+      "ci": [
+        -0.175,
+        0.075
+      ],
+      "direction": "≈"
+    },
+    "ndcg@3": {
+      "dense": 0.7973,
+      "hybrid": 0.7414,
+      "diff": -0.056,
+      "ci": [
+        -0.1658,
+        0.0414
+      ],
+      "direction": "≈"
+    },
+    "mcnemar_recall3": {
+      "b": 5,
+      "c": 2,
+      "p": 0.4531
+    },
+    "win_loss_tie": {
+      "win": 6,
+      "loss": 8,
+      "tie": 26
+    }
+  },
+  "symptom": {
+    "n": 60,
+    "recall@1": {
+      "dense": 0.6667,
+      "hybrid": 0.7167,
+      "diff": 0.05,
+      "ci": [
+        -0.0333,
+        0.1333
+      ],
+      "direction": "≈"
+    },
+    "recall@3": {
+      "dense": 0.9,
+      "hybrid": 0.9167,
+      "diff": 0.0167,
+      "ci": [
+        -0.0333,
+        0.0833
+      ],
+      "direction": "≈"
+    },
+    "recall@5": {
+      "dense": 0.9167,
+      "hybrid": 0.95,
+      "diff": 0.0333,
+      "ci": [
+        -0.0333,
+        0.1
+      ],
+      "direction": "≈"
+    },
+    "mrr@1": {
+      "dense": 0.6667,
+      "hybrid": 0.7167,
+      "diff": 0.05,
+      "ci": [
+        -0.0333,
+        0.1333
+      ],
+      "direction": "≈"
+    },
+    "mrr@3": {
+      "dense": 0.7806,
+      "hybrid": 0.8056,
+      "diff": 0.025,
+      "ci": [
+        -0.0278,
+        0.0806
+      ],
+      "direction": "≈"
+    },
+    "ndcg@1": {
+      "dense": 0.6667,
+      "hybrid": 0.7167,
+      "diff": 0.05,
+      "ci": [
+        -0.0333,
+        0.1333
+      ],
+      "direction": "≈"
+    },
+    "ndcg@3": {
+      "dense": 0.8117,
+      "hybrid": 0.8341,
+      "diff": 0.0224,
+      "ci": [
+        -0.0254,
+        0.0724
+      ],
+      "direction": "≈"
+    },
+    "mcnemar_recall3": {
+      "b": 1,
+      "c": 2,
+      "p": 1.0
+    },
+    "win_loss_tie": {
+      "win": 9,
+      "loss": 6,
+      "tie": 45
+    }
+  },
+  "difficult": {
+    "n": 100,
+    "recall@1": {
+      "dense": 0.68,
+      "hybrid": 0.69,
+      "diff": 0.01,
+      "ci": [
+        -0.06,
+        0.08
+      ],
+      "direction": "≈"
+    },
+    "recall@3": {
+      "dense": 0.89,
+      "hybrid": 0.87,
+      "diff": -0.02,
+      "ci": [
+        -0.08,
+        0.04
+      ],
+      "direction": "≈"
+    },
+    "recall@5": {
+      "dense": 0.92,
+      "hybrid": 0.92,
+      "diff": 0.0,
+      "ci": [
+        -0.06,
+        0.06
+      ],
+      "direction": "≈"
+    },
+    "mrr@1": {
+      "dense": 0.68,
+      "hybrid": 0.69,
+      "diff": 0.01,
+      "ci": [
+        -0.06,
+        0.08
+      ],
+      "direction": "≈"
+    },
+    "mrr@3": {
+      "dense": 0.7767,
+      "hybrid": 0.7717,
+      "diff": -0.005,
+      "ci": [
+        -0.0583,
+        0.0467
+      ],
+      "direction": "≈"
+    },
+    "ndcg@1": {
+      "dense": 0.68,
+      "hybrid": 0.69,
+      "diff": 0.01,
+      "ci": [
+        -0.06,
+        0.08
+      ],
+      "direction": "≈"
+    },
+    "ndcg@3": {
+      "dense": 0.8059,
+      "hybrid": 0.797,
+      "diff": -0.0089,
+      "ci": [
+        -0.0613,
+        0.0408
+      ],
+      "direction": "≈"
+    },
+    "mcnemar_recall3": {
+      "b": 6,
+      "c": 4,
+      "p": 0.7539
+    },
+    "win_loss_tie": {
+      "win": 15,
+      "loss": 14,
+      "tie": 71
+    }
+  }
+}

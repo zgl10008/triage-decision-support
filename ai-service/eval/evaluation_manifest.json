@@ -1,0 +1,63 @@
+{
+  "project": "智能信息管理与辅助决策系统 · AI 服务",
+  "version": "1.0",
+  "evaluation_policy": {
+    "primary_endpoint": "/agentic",
+    "current_development_set": "eval_queries_rebuilt.json",
+    "development_set_role": "development_ablation",
+    "independent_test_set_status": "not_available",
+    "claim_boundary": "开发集结果用于检索消融和回归分析；合成注入结果用于验证决策与安全机制；两者均不表述为临床准确率。"
+  },
+  "datasets": [
+    {
+      "path": "eval_queries_rebuilt.json",
+      "role": "development_ablation",
+      "expected_size": 150,
+      "expected_distribution": {
+        "exact": 30,
+        "paraphrase": 40,
+        "symptom": 60,
+        "offtopic": 20
+      },
+      "label_source": "基于项目知识库构造并人工指定 expected",
+      "independent_annotation": false
+    }
+  ],
+  "components": {
+    "retrieval": {
+      "script": "eval_phase3_retrieval.py",
+      "result": "results/retrieval_ablation.json",
+      "type": "real_retrieval_development_ablation",
+      "required_packages": ["FlagEmbedding", "faiss"],
+      "primary_comparison": ["Dense", "Dense+TF-IDF"],
+      "note": "BM25 历史组仅保留用于审计，不作为当前方案。"
+    },
+    "rerank": {
+      "script": "eval_retrieval_rerank_ab.py",
+      "result": "results/retrieval_rerank_ab/per_query_ranks.csv",
+      "type": "real_retrieval_development_ablation",
+      "required_packages": ["FlagEmbedding", "faiss", "transformers"],
+      "required_model": "models/bge-reranker-v2-m3",
+      "primary_comparison": ["hybrid", "hybrid+rerank"],
+      "claim_boundary": "精排为离线消融，线上默认未启用；结果只说明该开发集上的排序增益。"
+    },
+    "agentic": {
+      "script": "eval_phase3_agentic.py",
+      "result": "results/agentic_ablation.json",
+      "type": "synthetic_dependency_injection",
+      "claim_boundary": "只验证编排决策逻辑，不代表真实系统或临床准确率。"
+    },
+    "safety": {
+      "script": "eval_phase3_safety.py",
+      "result": "results/safety_evaluation.json",
+      "type": "synthetic_failure_injection",
+      "claim_boundary": "验证已覆盖故障模式下的安全门行为，不证明未知风险已被消除。"
+    },
+    "efficiency": {
+      "script": "eval_phase3_efficiency.py",
+      "result": "results/efficiency_evaluation.json",
+      "type": "deterministic_orchestration_microbenchmark",
+      "claim_boundary": "默认不包含 Dense 检索和 LLM 推理耗时，不作为端到端延迟。"
+    }
+  }
+}

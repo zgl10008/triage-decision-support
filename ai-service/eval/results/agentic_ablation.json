@@ -1,0 +1,35 @@
+{
+  "note": "decision-logic evaluation（合成 case + 注入依赖，非真实系统准确率）",
+  "num_cases": 13,
+  "v3": "UNAVAILABLE：项目不存在独立的 Agentic-V3 可执行管线（V5 重构已覆盖旧 router），故不伪造 V3 对比；历史决策逻辑参考即本 A/B 的 baseline vs agentic 口径。",
+  "baseline": {
+    "n": 13,
+    "decision_accuracy": 0.6154,
+    "correct": 8,
+    "unsafe_returns": 2,
+    "unsafe_pass_rate": 0.1538,
+    "unsafe_steps_passed": 3,
+    "ask_info_rate": 0.0,
+    "needs_review_rate": 0.0,
+    "reject_rate": 0.4615,
+    "blocked_rate": 0.0,
+    "forbidden_pass_rate": 1.0,
+    "unsupported_pass_rate": 1.0,
+    "citation_pass_rate": 1.0
+  },
+  "agentic_v5": {
+    "n": 13,
+    "decision_accuracy": 1.0,
+    "correct": 13,
+    "unsafe_returns": 0,
+    "unsafe_pass_rate": 0.0,
+    "unsafe_steps_passed": 0,
+    "ask_info_rate": 0.0769,
+    "needs_review_rate": 0.0769,
+    "reject_rate": 0.2308,
+    "blocked_rate": 0.0769,
+    "forbidden_pass_rate": 0.0,
+    "unsupported_pass_rate": 0.0,
+    "citation_pass_rate": 0.0
+  }
+}

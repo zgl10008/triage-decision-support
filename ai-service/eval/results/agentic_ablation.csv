@@ -1,0 +1,3 @@
+method,decision_accuracy,unsafe_pass_rate,forbidden_pass_rate,unsupported_pass_rate,citation_pass_rate,ask_info_rate,needs_review_rate,reject_rate,blocked_rate,num_cases
+baseline,0.6154,0.1538,1.0,1.0,1.0,0.0,0.0,0.4615,0.0,13
+agentic_v5,1.0,0.0,0.0,0.0,0.0,0.0769,0.0769,0.2308,0.0769,13

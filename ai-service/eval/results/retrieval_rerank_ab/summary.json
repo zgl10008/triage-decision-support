@@ -1,0 +1,38 @@
+{
+  "dense_vs_dense_rerank": {
+    "mcnemar_recall3": {
+      "b": 1,
+      "c": 7,
+      "p": 0.0703
+    },
+    "win_loss_tie": {
+      "win": 22,
+      "loss": 5,
+      "tie": 73
+    }
+  },
+  "hybrid_vs_hybrid_rerank": {
+    "mcnemar_recall3": {
+      "b": 1,
+      "c": 9,
+      "p": 0.0215
+    },
+    "win_loss_tie": {
+      "win": 23,
+      "loss": 7,
+      "tie": 70
+    }
+  },
+  "dense_rerank_vs_hybrid_rerank": {
+    "mcnemar_recall3": {
+      "b": 0,
+      "c": 0,
+      "p": 1.0
+    },
+    "win_loss_tie": {
+      "win": 0,
+      "loss": 0,
+      "tie": 100
+    }
+  }
+}

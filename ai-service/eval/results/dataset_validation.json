@@ -1,0 +1,27 @@
+{
+  "valid": true,
+  "manifest": "evaluation_manifest.json",
+  "errors": [],
+  "warnings": [
+    "eval_queries_rebuilt.json is not independently annotated; use it only as a development/ablation set"
+  ],
+  "datasets": [
+    {
+      "path": "eval_queries_rebuilt.json",
+      "role": "development_ablation",
+      "num_cases": 150,
+      "distribution": {
+        "exact": 30,
+        "offtopic": 20,
+        "paraphrase": 40,
+        "symptom": 60
+      },
+      "answerable": 130,
+      "duplicate_ids": [],
+      "normalized_duplicate_queries": {},
+      "sha256": "f44c7fa21e1df864b1ada168cfccf0f09cd0e3e051dc2ff605b02d7c38bc54c7",
+      "independent_annotation": false
+    }
+  ],
+  "claim_boundary": "开发集结果用于检索消融和回归分析；合成注入结果用于验证决策与安全机制；两者均不表述为临床准确率。"
+}

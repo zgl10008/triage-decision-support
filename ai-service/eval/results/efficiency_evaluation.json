@@ -1,0 +1,44 @@
+{
+  "struct_overhead": [
+    {
+      "scenario": "fast_path",
+      "final_decision": "return",
+      "latency_ms": 7.4,
+      "agent_steps": 5,
+      "retrieval_attempts": 1,
+      "replan_count": 0,
+      "llm_calls_situation": 0,
+      "llm_calls_rewrite": 0,
+      "llm_calls_generation": 1,
+      "llm_calls_total": 1,
+      "note": "orchestration overhead（LLM 推理耗时未计入，见 --real 抽查）"
+    },
+    {
+      "scenario": "complex_rewrite",
+      "final_decision": "return",
+      "latency_ms": 6.65,
+      "agent_steps": 8,
+      "retrieval_attempts": 2,
+      "replan_count": 0,
+      "llm_calls_situation": 1,
+      "llm_calls_rewrite": 1,
+      "llm_calls_generation": 1,
+      "llm_calls_total": 3,
+      "note": "orchestration overhead（LLM 推理耗时未计入，见 --real 抽查）"
+    },
+    {
+      "scenario": "repair_path",
+      "final_decision": "return",
+      "latency_ms": 7.09,
+      "agent_steps": 6,
+      "retrieval_attempts": 1,
+      "replan_count": 1,
+      "llm_calls_situation": 0,
+      "llm_calls_rewrite": 0,
+      "llm_calls_generation": 1,
+      "llm_calls_total": 1,
+      "note": "orchestration overhead（LLM 推理耗时未计入，见 --real 抽查）"
+    }
+  ],
+  "real_spot_check_included": false
+}
