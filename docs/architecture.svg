@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1700" viewBox="0 0 1800 1700">
+<rect width="100%" height="100%" fill="#f6f8fc"/>
+<text x="60" y="76.72" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#183553">智能信息管理与辅助决策系统</text>
+<text x="62" y="120.24" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" fill="#62768d">面向突发灾害救援  ·  多模态伤情采集 → 业务管理 → 可追溯处置建议</text>
+<rect x="50" y="150" width="1700" height="150" rx="20" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="80" y="196.36" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#6782a3">01</text>
+<text x="80" y="239.64" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#243a58">信息采集层</text>
+<text x="80" y="279.6" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#65788d">多模态输入</text>
+<rect x="270" y="175" width="420" height="100" rx="12" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="292" y="214.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#243a58">文字录入</text>
+<text x="292" y="248.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">直接输入伤情描述</text>
+<rect x="770" y="175" width="420" height="100" rx="12" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="792" y="214.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#243a58">语音输入 · ASR</text>
+<text x="792" y="248.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">语音识别 → 文本转写</text>
+<rect x="1270" y="175" width="420" height="100" rx="12" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="1292" y="214.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#243a58">图像输入 · VLM</text>
+<text x="1292" y="248.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">图像理解 → 伤情线索</text>
+<polyline points="980,300 980,340" fill="none" stroke="#71839a" stroke-width="2.5"/>
+<polygon points="980,340 975.2153791247765,330.0950818741206 984.7846208752235,330.0950818741206" fill="#71839a"/>
+<rect x="50" y="340" width="1700" height="170" rx="20" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="80" y="386.36" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#6782a3">02</text>
+<text x="80" y="429.64" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#243a58">信息管理层</text>
+<text x="80" y="469.6" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#65788d">业务服务</text>
+<rect x="270" y="365" width="420" height="120" rx="12" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="292" y="404.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#243a58">Vue 3 · 检伤工作台</text>
+<text x="292" y="438.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">患者管理 / 统计分析 / 系统管理</text>
+<text x="292" y="467.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">智能检伤分级与处置建议展示</text>
+<rect x="770" y="365" width="500" height="120" rx="12" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="792" y="404.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#243a58">Spring Boot · 业务后端 </text>
+<text x="792" y="438.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">患者档案 / 处置记录 / 账号权限</text>
+<text x="792" y="467.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">语音转码 / AI 服务请求与结果回传</text>
+<rect x="1350" y="365" width="340" height="120" rx="12" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="1372" y="404.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#243a58">MySQL</text>
+<text x="1372" y="438.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">患者档案与账号数据</text>
+<text x="1372" y="467.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">处置记录持久化</text>
+<polyline points="690,425 770,425" fill="none" stroke="#71839a" stroke-width="2.5"/>
+<polygon points="770,425 760.0950818741205,429.78462087522354 760.0950818741205,420.21537912477646" fill="#71839a"/>
+<polyline points="1270,425 1350,425" fill="none" stroke="#71839a" stroke-width="2.5"/>
+<polygon points="1350,425 1340.0950818741205,429.78462087522354 1340.0950818741205,420.21537912477646" fill="#71839a"/>
+<polyline points="1020,510 1020,550" fill="none" stroke="#71839a" stroke-width="2.5"/>
+<polygon points="1020,550 1015.2153791247765,540.0950818741205 1024.7846208752235,540.0950818741205" fill="#71839a"/>
+<rect x="50" y="550" width="1700" height="810" rx="20" fill="#edf8f6" stroke="#9acac2" stroke-width="2"/>
+<text x="80" y="596.36" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#16847c">03</text>
+<text x="80" y="639.64" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#176e69">AI 决策层</text>
+<text x="80" y="679.6" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#65788d">AI 服务 </text>
+<text x="80" y="707.6" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#65788d">Agentic RAG</text>
+<text x="80" y="735.6" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#65788d">本人重点设计实现</text>
+<text x="270" y="597.64" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#126d68">处置建议状态机</text>
+<text x="1040" y="596.6" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#567d79">实线：主流程 / 结果汇合    虚线：条件重试</text>
+<rect x="270" y="625" width="420" height="115" rx="12" fill="#ffffff" stroke="#b5d8d4" stroke-width="2"/>
+<text x="292" y="664.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#126d68">① 输入校验</text>
+<text x="292" y="698.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">伤情描述完整性检查</text>
+<text x="292" y="727.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">信息不足 → ask_info</text>
+<rect x="770" y="625" width="420" height="115" rx="12" fill="#ffffff" stroke="#b5d8d4" stroke-width="2"/>
+<text x="792" y="664.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#126d68">② 混合检索</text>
+<text x="792" y="698.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">BGE-M3 语义 + 字符级 TF-IDF</text>
+<text x="792" y="727.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">融合召回候选伤情与处置证据</text>
+<rect x="1270" y="625" width="420" height="115" rx="12" fill="#ffffff" stroke="#b5d8d4" stroke-width="2"/>
+<text x="1292" y="664.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#126d68">③ 候选校验 · 证据评估</text>
+<text x="1292" y="698.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">相似度 / 候选冲突</text>
+<text x="1292" y="727.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">判断检索证据能否支撑建议</text>
+<polyline points="690,682 770,682" fill="none" stroke="#258a7e" stroke-width="2.5"/>
+<polygon points="770,682 760.0950818741205,686.7846208752235 760.0950818741205,677.2153791247765" fill="#258a7e"/>
+<polyline points="1190,682 1270,682" fill="none" stroke="#258a7e" stroke-width="2.5"/>
+<polygon points="1270,682 1260.0950818741205,686.7846208752235 1260.0950818741205,677.2153791247765" fill="#258a7e"/>
+<rect x="1270" y="790" width="420" height="100" rx="12" fill="#ffffff" stroke="#b5d8d4" stroke-width="2"/>
+<text x="1292" y="829.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#126d68">④ Query 改写 · 重检索</text>
+<text x="1292" y="863.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">证据不足时触发；次数预算约束</text>
+<polyline points="1480,740 1480,790" fill="none" stroke="#c18a3c" stroke-width="2.5" stroke-dasharray="7 6"/>
+<polygon points="1480,790 1475.2153791247765,780.0950818741205 1484.7846208752235,780.0950818741205" fill="#c18a3c"/>
+<text x="1285" y="769.72" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" fill="#ad7c32">证据不足 / 低置信度</text>
+<polyline points="1270,840 980,840 980,740" fill="none" stroke="#c18a3c" stroke-width="2.5" stroke-dasharray="7 6"/>
+<polygon points="980,740 984.7846208752235,749.9049181258795 975.2153791247765,749.9049181258795" fill="#c18a3c"/>
+<text x="1040" y="825.72" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" fill="#ad7c32">预算内重检索</text>
+<polyline points="1690,682 1720,682 1720,925 480,925 480,970" fill="none" stroke="#258a7e" stroke-width="2.5"/>
+<polygon points="480,970 475.21537912477646,960.0950818741205 484.78462087522354,960.0950818741205" fill="#258a7e"/>
+<text x="720" y="910.6" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#328579">证据可用 → 动作规划；重检索后仍不可用 → 决策输出</text>
+<rect x="270" y="970" width="420" height="115" rx="12" fill="#ffffff" stroke="#b5d8d4" stroke-width="2"/>
+<text x="292" y="1009.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#126d68">⑤ 引用内容</text>
+<text x="292" y="1043.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">处置类片段</text>
+<text x="292" y="1072.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">可控范围 → 降低幻觉</text>
+<rect x="770" y="970" width="420" height="115" rx="12" fill="#ffffff" stroke="#b5d8d4" stroke-width="2"/>
+<text x="792" y="1009.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#126d68">⑥ 建议生成</text>
+<text x="792" y="1043.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">Ollama 调用本地大模型</text>
+<text x="792" y="1072.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">生成分阶段建议并附证据引用</text>
+<rect x="1270" y="970" width="420" height="115" rx="12" fill="#ffffff" stroke="#b5d8d4" stroke-width="2"/>
+<text x="1292" y="1009.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#126d68">⑦ 输出校验</text>
+<text x="1292" y="1043.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">禁忌 / 白名单 / 引用有效性</text>
+<text x="1292" y="1072.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">LLM-as-judge 忠实度校验</text>
+<polyline points="690,1027 770,1027" fill="none" stroke="#258a7e" stroke-width="2.5"/>
+<polygon points="770,1027 760.0950818741205,1031.7846208752235 760.0950818741205,1022.2153791247765" fill="#258a7e"/>
+<polyline points="1190,1027 1270,1027" fill="none" stroke="#258a7e" stroke-width="2.5"/>
+<polygon points="1270,1027 1260.0950818741205,1031.7846208752235 1260.0950818741205,1022.2153791247765" fill="#258a7e"/>
+<polyline points="1480,1085 1480,1130" fill="none" stroke="#258a7e" stroke-width="2.5"/>
+<polygon points="1480,1130 1475.2153791247765,1120.0950818741205 1484.7846208752235,1120.0950818741205" fill="#258a7e"/>
+<rect x="270" y="1130" width="1420" height="145" rx="12" fill="#ffffff" stroke="#a0cfc5" stroke-width="2"/>
+<text x="292" y="1170.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#126d68">⑧ 决策输出 · 各类异常与校验结果统一收敛</text>
+<text x="400" y="1210.24" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#176e69">return</text>
+<text x="400" y="1242.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#576d7b">正常返回</text>
+<text x="720" y="1210.24" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#176e69">ask_info</text>
+<text x="720" y="1242.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#576d7b">补充信息</text>
+<!-- <text x="848" y="1210.24" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#176e69">needs_review</text>
+<text x="848" y="1242.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#576d7b">转人工</text> -->
+<text x="1100" y="1210.24" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#176e69">reject</text>
+<text x="1100" y="1242.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#576d7b">拒答</text>
+<text x="1450" y="1210.24" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#176e69">blocked</text>
+<text x="1450" y="1242.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#576d7b">拦截</text>
+<text x="290" y="1320.24" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#236f69">全程约束：状态机编排 + 重试 / 重规划 / 修复次数上限 + 超时兜底</text>
+<rect x="50" y="1405" width="1700" height="205" rx="20" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="80" y="1451.36" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#6782a3">04</text>
+<text x="80" y="1494.64" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#243a58">知识模型底座</text>
+<text x="80" y="1534.6" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#65788d">检索与生成支撑</text>
+<rect x="270" y="1430" width="420" height="150" rx="12" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="292" y="1469.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#243a58">结构化知识库</text>
+<text x="292" y="1503.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">CSV 伤情处置知识 + 词表</text>
+<text x="292" y="1532.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">伤情描述 / 推理依据 / 处置内容</text>
+<text x="292" y="1561.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">为候选匹配与证据引用提供来源</text>
+<rect x="770" y="1430" width="420" height="150" rx="12" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="792" y="1469.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#243a58">检索资源</text>
+<text x="792" y="1503.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">BGE-M3 向量化 → FAISS 索引</text>
+<text x="792" y="1532.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">语义召回 + 字符级 TF-IDF</text>
+<!-- <text x="792" y="1561.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">向量模型 / 索引缺失 → TF-IDF</text> -->
+<rect x="1270" y="1430" width="420" height="150" rx="12" fill="#ffffff" stroke="#dce3ee" stroke-width="2"/>
+<text x="1292" y="1469.0" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#243a58">生成资源</text>
+<text x="1292" y="1503.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">Ollama + 本地大模型</text>
+<text x="1292" y="1532.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">为步骤⑥提供生成能力</text>
+<text x="1292" y="1561.48" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" fill="#56667c">生成异常进入受控决策流程</text>
+<polyline points="980,1405 980,1360" fill="none" stroke="#6d99a1" stroke-width="2.5" stroke-dasharray="7 6"/>
+<polygon points="980,1360 984.7846208752235,1369.9049181258795 975.2153791247765,1369.9049181258795" fill="#6d99a1"/>
+<text x="60" y="1660.24" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" fill="#51667d">结果闭环：AI 决策结果回传业务后端 → 前端展示 → 处置记录归档</text>
+</svg>

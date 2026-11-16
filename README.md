@@ -9,49 +9,13 @@
 灾害现场信息碎片化、救援人员专业水平不一，处置建议容易出现两种风险：**答非所问**和**给出知识库之外的危险动作**。本项目把「检索 → 生成」扩展为一条带状态机约束的 Agentic 管线：
 
 - 信息不足时主动追问，而不是硬猜
-- 候选伤情冲突或证据不足时转人工复核 / 拒答，而不是强行给结论
+- 候选伤情冲突或证据不足时拒答，而不是强行给结论
 - 生成结果经过确定性校验（禁忌动作、动作白名单、引用有效性）与忠实度校验
 - 所有重试、重规划、修复都有次数上限和超时兜底
 
 ## 系统架构
 
 ![系统架构](docs/architecture.png)
-
-```mermaid
-flowchart TB
-    subgraph Client["现场终端"]
-        WEB["Vue 3 前端<br/>检伤工作台 · 患者管理 · 统计"]
-        CAM["摄像头 / 语音输入"]
-    end
-    subgraph Backend["Spring Boot 后端 :8014"]
-        API["REST API<br/>患者档案 · 处置记录 · 账号权限"]
-        ASR["语音识别 / ffmpeg 转码"]
-    end
-    subgraph AI["AI 服务 :5800"]
-        ORCH["Agentic RAG 决策链<br/>编排 · 情况评估<br/>自适应检索 · 证据评估<br/>动作规划 · 生成 · 校验"]
-    end
-    subgraph Vision["视觉分析服务 :6800"]
-        VL["伤情图像分析"]
-    end
-    subgraph Knowledge["知识层"]
-        CSV["伤情处置知识 CSV"] --> KB["KB 记录 / 词表"] --> IDX["FAISS 索引<br/>BGE-M3 dense + sparse"]
-    end
-    subgraph Models["模型层"]
-        EMB["BGE-M3<br/>本地嵌入"]
-        LLM["Ollama<br/>本地大模型"]
-    end
-    DB[("MySQL<br/>triage_support")]
-
-    CAM --> WEB
-    WEB -->|"/api"| API
-    WEB -->|"/match-api"| ORCH
-    WEB -->|"/analyzer-api"| VL
-    API --> DB
-    API --> ASR
-    ORCH -->|"检索"| IDX
-    IDX -.->|"向量化"| EMB
-    ORCH -->|"生成"| LLM
-```
 
 ### Agentic 决策流程
 
@@ -64,7 +28,7 @@ flowchart TD
     E --> F["证据评估：相关性 · 覆盖度 · 候选冲突"]
     F -->|证据不足| G["改写查询并重检索（受预算约束）"]
     G --> E
-    F -->|候选冲突| H["needs_review：转人工复核"]
+    F -->|候选冲突| H["reject：拒答"]
     F -->|证据可用| I["处置动作规划：动作白名单 + 阶段约束"]
     I --> J["Grounded 生成：输出引用与 source_id"]
     J --> K["确定性校验：禁忌动作 · 无依据动作 · 引用有效"]
@@ -205,7 +169,7 @@ modelscope download --model BAAI/bge-reranker-v2-m3 \
 - 系统的定位是**信息整理与决策辅助**，最终处置由现场医疗人员决定。
 - 检索相似度（dense cosine）只表示语义接近程度，不是置信度或概率；阈值用于控制「答 / 不答」，不用于表达医学确定性。
 - 候选伤情冲突检测基于检索排序与处置路径差异，是**冲突筛查**，不是医学冲突判定。
-- `needs_review`、`reject`、`blocked` 是安全策略的输出，不代表系统完成了风险识别。
+- `reject`、`blocked` 是安全策略的输出，不代表系统完成了风险识别。
 - 知识库来自公开急救资料的结构化整理，未经过临床验证。
 
 ## License
